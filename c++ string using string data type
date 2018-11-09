@@ -1,0 +1,20 @@
+/*
+      In this article, you'll learn to handle strings in C++. 
+      You'll learn to declare them, initialize them and use them for various input/output operations.
+*/
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Declaring a string object
+    string str;
+    cout << "Enter a string: ";
+    getline(cin, str);
+
+    cout << "You entered: " << str << endl;
+    return 0;
+}
