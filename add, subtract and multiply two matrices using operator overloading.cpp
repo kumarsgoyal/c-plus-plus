@@ -120,6 +120,8 @@ void mat::disp ()
     }
 }
 
+
+//This is slave main() just for experimental purpose.
 int main ()
 {
     mat m1, m2, m3;
